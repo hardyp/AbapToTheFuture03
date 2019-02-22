@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Output Message to User</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>% COMPLETE</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Internal Session for Isolated Test Class Execution</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+   </TPOOL>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>This class is intended to be used my multiple applications to cater for</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>some of the most basic functions in regard to outputting data to the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>user. This way we do not have to code the same things repeatedly in each</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>program.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>There are three main functions of this class at the moment:-</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>(1) To output either a standard SAP error message, or free text of an</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>error where there is no standard SAP message, and decide whether to show</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>this to the user or write it to the log if a job is running in the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>background.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>(2) To show a user a progress indicator whilst processing large internal</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>tables.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>(3) To output an error log in a variety of situations.</TDLINE>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+     <CMPNAME>APPEND_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add an entry to Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+     <CMPNAME>CLEAR_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+     <CMPNAME>MS_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+     <CMPNAME>MT_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+     <CMPNAME>OUTPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Output Message to Screen or Background Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SCREEN_MESSAGE</CLSNAME>
+     <CMPNAME>SHOW_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

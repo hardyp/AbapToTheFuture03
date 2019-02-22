@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Monster Unit Testing Examples</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMONSTER_UNIT_TESTINGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMONSTER_UNIT_TESTING</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZGET_NUCLEAR_MISSILE_STATUS</FUNCNAME>
+     <SHORT_TEXT>Get Nuclear Missile Status from External System</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZPRINT_NUCLEAR_SMARTFORM</FUNCNAME>
+     <SHORT_TEXT>Tell the Printer to Print out a SMARTFORM</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZREAD_MONSTER_CUSTOMIZING</FUNCNAME>
+     <SHORT_TEXT>Read Customizing from Actual Database</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZTELL_PI_PROXY_TO_FIRE_MISSILE</FUNCNAME>
+     <SHORT_TEXT>Use PI Middleware to Fire Nuclear Missile</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BOPF Persistency Layer Helper</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>CHANGE_DATA_IN_DATABASE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Data in Database</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>CHANGE_DATA_IN_MEMORY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Data in Memory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>GET_CHILD_NODE_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Give a BOPF Key, Return a Child Nodes Contents (Single Row)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>GET_CHILD_NODE_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Give a BOPF Key, Return a Child Nodes Contents (Table)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>GET_NODE_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Give a BOPF Key, Return a Nodes Contents (Single Row)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>GET_NODE_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Give a BOPF Key, Return a Nodes Contents (Table)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>MO_OBJECT_CONFIGURATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface for Configuration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>MO_SERVICE_MANAGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Containing the public service methods of a service manager</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>MO_TRANSACTION_MANAGER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface of the standalone transaction manager</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_BOPF_PL_HELPER</CLSNAME>
+     <CMPNAME>PUT_MESSAGE_IN_BOTTLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add BOPF Error to BOPF Message Object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

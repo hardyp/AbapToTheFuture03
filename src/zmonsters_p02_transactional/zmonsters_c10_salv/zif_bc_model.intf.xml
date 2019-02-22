@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Base Interface for Application Models</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>DATA_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>The Model has Changed it&apos;s Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_CHECKBOX_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields which will be checkboxes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_EDITABLE_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields that the model allows to be edited</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_FIELD_TEXTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields to be renamed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_HIDDEN_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields hidden by default but user can view</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_HOTSPOT_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields the model will react to when pressed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_LAYOUT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare Report Layout Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_SORT_CRITERIA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of Sort Criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_SUBTOTAL_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields that need to be subtotalled</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_TECHNICAL_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of fields that are private to the model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>FILL_USER_COMMANDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare table of commands the model will respond to</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MD_EDIT_CONTROL_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field in data table controlling editability</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MD_SELECTED_COLUMN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selected Column</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MD_SELECTED_ROW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selected Row</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MD_SUCCESS_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Success Message from User Command</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MS_LAYOUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Layout Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_CHECKBOXES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Checkboxes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_EDITABLE_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Editable fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_FIELD_TEXTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Changed Texts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_HIDDEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Hidden Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_HOTSPOTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Hotspot Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_SORT_CRITERIA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Sort Criteria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_SUBTOTAL_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Subtotal Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_TECHNICALS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Technical Fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>MT_USER_COMMANDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Toolbar Buttons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>SET_EDIT_CONTROL_FIELD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Define field in data table that controls editability</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BC_MODEL</CLSNAME>
+     <CMPNAME>USER_COMMAND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>User Command</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DCLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DCLS>
+    <DCLNAME>ZDCL_MONSTERS_PARAMETERS</DCLNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DCLLANGUAGE>E</DCLLANGUAGE>
+    <DDTEXT>Restrict Access to Colorful Monsters</DDTEXT>
+   </DCLS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

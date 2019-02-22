@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZTK_CDS_MONSTER_DELIVERIES_ACT</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>ZSK_CDS_MONSTER_DELIVERIES_ACT</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>T</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <DDTEXT>Generated for Draft Object - #GENERATED#</DDTEXT>
+   </DD40V>
+   <DD43V>
+    <DD43V>
+     <TYPENAME>ZTK_CDS_MONSTER_DELIVERIES_ACT</TYPENAME>
+     <SECKEYNAME>KEY_SORTED</SECKEYNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <ACCESSMODE>S</ACCESSMODE>
+     <KIND>T</KIND>
+    </DD43V>
+   </DD43V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

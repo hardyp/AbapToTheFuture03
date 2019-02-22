@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_AVG_VILLAGER_ASTHMA_LEVEL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>29</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>29</SCRLEN3>
+    <DDTEXT>Average Villager Asthma Level</DDTEXT>
+    <REPTEXT>Average Villager Asthma Level</REPTEXT>
+    <SCRTEXT_S>AVA Level</SCRTEXT_S>
+    <SCRTEXT_M>AV Asthma Level</SCRTEXT_M>
+    <SCRTEXT_L>Average Villager Asthma Level</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>INT1</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

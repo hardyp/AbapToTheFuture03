@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Monster Evilness - How evil is this Monster?</DDTEXT>
+    <DOMMASTER>E</DOMMASTER>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NICE</DOMVALUE_L>
+     <DDTEXT>Not Evil at All</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EVIL</DOMVALUE_L>
+     <DDTEXT>Evil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VERY</DOMVALUE_L>
+     <DDTEXT>Very Evil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>JOLY</DOMVALUE_L>
+     <DDTEXT>Jolly Evil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INEV</DOMVALUE_L>
+     <DDTEXT>Incredibly Evil</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_EVILNESS</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BANK</DOMVALUE_L>
+     <DDTEXT>Makes Bankers look like Saints</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

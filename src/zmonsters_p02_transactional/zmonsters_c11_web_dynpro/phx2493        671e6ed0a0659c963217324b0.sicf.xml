@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/PHX2493/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>PHX2493</ICF_NAME>
+    <ORIG_NAME>PHX2493</ORIG_NAME>
+    <ICFALTNME>ZWDA_FPM_BOPF_MONSTERS</ICFALTNME>
+    <ICFALTNME_ORIG>ZWDA_FPM_BOPF_MONSTERS</ICFALTNME_ORIG>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>PHX2493</ICF_NAME>
+    <ICF_LANGU>E</ICF_LANGU>
+    <ICF_DOCU>FPM BOPF Monster Application</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>CLASENH</TOOL>
+   <SHORTTEXT>Enable Dynamic Seperators in SALV Grid</SHORTTEXT>
+   <CLASS>CL_SALV_GRID_ADAPTER</CLASS>
+   <POST_METHODS>
+    <ENHAMETHKEYS>
+     <METHKEY>
+      <CLSNAME>IF_SALV_TOOLBAR_ADAPTER</CLSNAME>
+      <CMPNAME>BUILD_UIFUNCTION</CMPNAME>
+     </METHKEY>
+    </ENHAMETHKEYS>
+   </POST_METHODS>
+   <TAB_ATTRIBUTES>
+    <ENHCLASSATTRIB>
+     <CLSNAME>CL_SALV_GRID_ADAPTER</CLSNAME>
+     <CMPNAME>%_ZEI_C10_SALV</CMPNAME>
+     <DESCRIPT>SAP-generated, not changeable!</DESCRIPT>
+     <STATE>1</STATE>
+     <EDITORDER>1</EDITORDER>
+     <TYPTYPE>3</TYPTYPE>
+     <TYPE>OBJECT</TYPE>
+     <LOCKED>X</LOCKED>
+    </ENHCLASSATTRIB>
+   </TAB_ATTRIBUTES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

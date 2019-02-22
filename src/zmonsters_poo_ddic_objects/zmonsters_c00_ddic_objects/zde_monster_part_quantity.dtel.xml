@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_MONSTER_PART_QUANTITY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>INT4</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>Monster Part Quantity e.g. 6 Heads</DDTEXT>
+    <REPTEXT>Monster Part Quantity e.g. 6 Heads</REPTEXT>
+    <SCRTEXT_S>MP Quant</SCRTEXT_S>
+    <SCRTEXT_M>MonsterPart Quantity</SCRTEXT_M>
+    <SCRTEXT_L>Monster Part Quantity</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

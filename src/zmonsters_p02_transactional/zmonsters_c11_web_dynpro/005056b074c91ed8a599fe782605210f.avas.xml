@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_AVAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AVAS>
+    <HEADER>
+     <GUID>005056B074C91ED8A599FE782605210F</GUID>
+     <ATTRIBUTE>FPM_APPL_AREA</ATTRIBUTE>
+     <OBJECT>
+      <TROBJTYPE>WDCC</TROBJTYPE>
+      <SOBJ_NAME>ZWDA_FPM_BOPF_MONSTERS          00</SOBJ_NAME>
+     </OBJECT>
+    </HEADER>
+    <VALUES>
+     <CLS_VALUE_ASSIGNMENT>
+      <VALUE>FPM_SADL_CRUD</VALUE>
+      <ICON>@HO@</ICON>
+     </CLS_VALUE_ASSIGNMENT>
+    </VALUES>
+   </AVAS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

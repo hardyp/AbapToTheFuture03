@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SALV_MODEL</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>SALV Model for Getting Grid Access</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SALV_MODEL</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SALV_MODEL</CLSNAME>
+     <CMPNAME>GET_ALV_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get ALV Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SALV_MODEL</CLSNAME>
+     <CMPNAME>MO_EVENT_HANDLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Static Event Handler</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SALV_MODEL</CLSNAME>
+     <CMPNAME>MO_MODEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV: Basis Class Model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_SALV_MODEL</CLSNAME>
+     <CMPNAME>SET_EDITABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare a Given SALV Obect to Open in Editable Mode</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

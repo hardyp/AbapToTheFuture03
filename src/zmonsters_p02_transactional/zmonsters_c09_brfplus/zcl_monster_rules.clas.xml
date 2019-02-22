@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Monster Business Rules</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+     <CMPNAME>DERIVE_HAT_SIZE_DESCRIPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Derive Hat Size Description</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+     <CMPNAME>DERIVE_INGREDIENT_SPLIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Derive Ingredient Split</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+     <CMPNAME>DERIVE_INGREDIENT_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Derive Ingredient Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+     <CMPNAME>DERIVE_SANITY_DESCRIPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Derive Sanity Description</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+     <CMPNAME>MC_HAT_SIZE_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FDT: Universal Unique Identifier</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MONSTER_RULES</CLSNAME>
+     <CMPNAME>MC_SANITY_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FDT: Universal Unique Identifier</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_AVG_VILLAGER_NOSE_SIZE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Average Villager Nose Size</DDTEXT>
+    <REPTEXT>Average Villager Nose Size</REPTEXT>
+    <SCRTEXT_S>AVN Size</SCRTEXT_S>
+    <SCRTEXT_M>AV Nose Size</SCRTEXT_M>
+    <SCRTEXT_L>Average Villager Nose Size</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>INT1</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

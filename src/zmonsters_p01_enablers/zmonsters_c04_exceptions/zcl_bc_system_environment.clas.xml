@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BC_SYSTEM_ENVIRONMENT</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Are we running in production?</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>This is a simple re-uable function to see if a program is running in</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>production.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>This information is useful for error-handling. In production we do not</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>want the program to dump, and typically abort the program, give the user</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>an error message if they are online, and write the details into the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>application log for review by BSS.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>In other systems howver we can callow a short dump as it highlightes</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>something is wrong and provides some useful information hidden amongst</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the reams of hexadecmal numbers.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;RELATIONS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;HINTS&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SYSTEM_ENVIRONMENT</CLSNAME>
+     <CMPNAME>IS_PRODUCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Are we running in production?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_SYSTEM_ENVIRONMENT</CLSNAME>
+     <CMPNAME>MC_PRODUCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Client control: Role of client (production, test,...)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

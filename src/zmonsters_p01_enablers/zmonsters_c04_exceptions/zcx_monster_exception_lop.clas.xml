@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Monster Exception - Lots of Parameters</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056B074C91ED89FC184F2C45A410F</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056B074C91ED89FC184F2C45A410F</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Monster has &apos;&amp;HEADS&amp;&apos; heads which is most unexpected</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>005056B074C91ED89FC184F2C45A610F</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056B074C91ED89FC184F2C45A610F</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Monster has &apos;&amp;LEGS&amp;&apos; legs, which is more than expected, is looks like a centipede</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>005056B074C91ED89FC184F2C45A810F</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056B074C91ED89FC184F2C45A810F</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Problem with monster who is &apos;&amp;SCARINESS&amp;&apos; and who has &apos;&amp;HEADS&amp;&apos; heads &apos;&amp;ARMS&amp;&apos; arms &apos;&amp;LEGS&amp;&apos; legs and &apos;&amp;BOLTS&amp;&apos; bolts through the neck</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+     <CMPNAME>ARMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of Arms</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+     <CMPNAME>BOLTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of Neck Bolts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+     <CMPNAME>HEADS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of Heads</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+     <CMPNAME>LEGS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of Legs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_MONSTER_EXCEPTION_LOP</CLSNAME>
+     <CMPNAME>SCARINESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scariness</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

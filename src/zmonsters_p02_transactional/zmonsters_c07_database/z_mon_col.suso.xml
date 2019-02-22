@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>Z_MON_COL</OBJCT>
+    <FIEL1>ACTVT</FIEL1>
+    <FIEL2>COLOR</FIEL2>
+    <OCLSS>BOBF</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>Z_MON_COL</OBJECT>
+    <TTEXT>Restrict Monsters by Color</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>Z_MON_COL</OBJCT>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>Z_MON_COL</BROBJ>
+     <ACTVT>01</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>Z_MON_COL</BROBJ>
+     <ACTVT>02</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>Z_MON_COL</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>Z_MON_COL</BROBJ>
+     <ACTVT>06</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

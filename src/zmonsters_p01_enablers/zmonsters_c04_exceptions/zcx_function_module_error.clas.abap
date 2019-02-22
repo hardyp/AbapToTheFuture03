@@ -1,0 +1,52 @@
+class ZCX_FUNCTION_MODULE_ERROR definition
+  public
+  inheriting from CX_NO_CHECK
+  create public .
+
+public section.
+
+  interfaces IF_T100_DYN_MSG .
+  interfaces IF_T100_MESSAGE .
+
+  data FUNCTION_MODULE type RS38L_FNAM .
+  data EXCEPTION_NAME type RS38L_PAR_ .
+  data EXCEPTION_TEXT type PARAMTEXT .
+  data NO_T100_MESSAGE type ABAP_BOOL .
+  data CALL_STACK_TABLE type SYS_CALLST .
+
+  methods CONSTRUCTOR
+    importing
+      !TEXTID like IF_T100_MESSAGE=>T100KEY optional
+      !PREVIOUS like PREVIOUS optional
+      !FUNCTION_MODULE type RS38L_FNAM optional
+      !EXCEPTION_NAME type RS38L_PAR_ optional
+      !EXCEPTION_TEXT type PARAMTEXT optional
+      !NO_T100_MESSAGE type ABAP_BOOL optional
+      !CALL_STACK_TABLE type SYS_CALLST optional .
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZCX_FUNCTION_MODULE_ERROR IMPLEMENTATION.
+
+
+  method CONSTRUCTOR.
+CALL METHOD SUPER->CONSTRUCTOR
+EXPORTING
+PREVIOUS = PREVIOUS
+.
+me->FUNCTION_MODULE = FUNCTION_MODULE .
+me->EXCEPTION_NAME = EXCEPTION_NAME .
+me->EXCEPTION_TEXT = EXCEPTION_TEXT .
+me->NO_T100_MESSAGE = NO_T100_MESSAGE .
+me->CALL_STACK_TABLE = CALL_STACK_TABLE .
+clear me->textid.
+if textid is initial.
+  IF_T100_MESSAGE~T100KEY = IF_T100_MESSAGE=>DEFAULT_TEXTID.
+else.
+  IF_T100_MESSAGE~T100KEY = TEXTID.
+endif.
+  endmethod.
+ENDCLASS.

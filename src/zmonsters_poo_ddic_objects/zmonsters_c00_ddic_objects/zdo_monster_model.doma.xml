@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Monster Model</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BTNK</DOMVALUE_L>
+     <DDTEXT>Bolts-Through-Neck</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BLLN</DOMVALUE_L>
+     <DDTEXT>Black Lagoon</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>KLKL</DOMVALUE_L>
+     <DDTEXT>Killer Klown</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BLOB</DOMVALUE_L>
+     <DDTEXT>Shapeless Blob</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ISDD</DOMVALUE_L>
+     <DDTEXT>Ice Skating Dead</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INVS</DOMVALUE_L>
+     <DDTEXT>Invisible</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_MODEL</DOMNAME>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GWDH</DOMVALUE_L>
+     <DDTEXT>Gorilla With Diving Helmet</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

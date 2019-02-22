@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_VIOLATED_POSTCONDITION</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Violated Postcondition</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056B074C91ED981A35452159F2110</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056B074C91ED981A35452159F2110</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Condition &amp;MD_CONDITION&amp; was not fulfilled in the called routine</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Definition</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>In computer programming, a postcondition is a condition or predicate</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>that must always be true just after the execution of some section of</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>code or after an operation in a formal specification. Postconditions are</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>sometimes tested using assertions within the code itself. Often,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>postconditions are simply included in the documentation of the affected</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>section of code.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>A failure of a postcondition ALWAYS indicates a bug in the software. in</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>this case the fault belongs to the routine which is being called.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>For example: The result of a factorial is always an integer and greater</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>than or equal to 1. So a program that calculates the factorial of an</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>input number would have postconditions that the result after the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>calculation be an integer and that it be greater than or equal to 1.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Another example: a program that calculates the square root of an input</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>number might have the postconditions that the result be a number and</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>that its square be equal to the input .</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Postconditions in object-oriented programming</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>In object-oriented programming, postconditions, along with preconditions</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and class invariants are components of the software construction method</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>design by contract.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> The postcondition for any routine is a declaration of the properties</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>which are guaranteed upon completion of the routine&apos;s execution. As it</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>relates to the routine&apos;s contract, the postcondition offers assurance to</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>potential callers that in cases in which the routine is called in a</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>state in which its precondition holds, the properties declared by the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>postcondition are assured.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Eiffel example</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>The following example written in Eiffel sets the value of a class</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>attribute hour based on a caller-provided argument a_hour. The</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>postcondition follows the keyword ensure. In this example the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>postcondition guarantees, in cases in which the precondition holds</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>(i.e., when a_hour represents a valid hour of the day), that after the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>execution of set_hour, the class attribute hour will have the same value</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>as a_hour. The tag &quot;hour_set:&quot; describes this postcondition clause and</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>serves to identify it in case of a runtime postcondition violation.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>     set_hour (a_hour: INTEGER)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            -- Set `hour&apos; to `a_hour&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        require</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            valid_argument: 0 &lt;= a_hour and a_hour &lt;= 23</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        do</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            hour := a_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        ensure</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            hour_set: hour = a_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        end</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Postconditions in ABAP</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>There is no direct equivalent in ABAP. The closest we get is</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> &lt;DS:CL.CL_AUNIT_ASSERT&gt;CL_AUNIT_ASSERT&lt;/&gt; which is called in ABAP Unit</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Tests directly after a method or subroutine has been called within a</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>test method.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>You can put an ASSERT statment at the end of a routine with a logical</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>condition, and this can be set to cause a runtime error or write a</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>mesage to the log. This exception class provvides another alternative.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Postconditions and inheritance</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>In the presence of inheritance, the routines inherited by descendant</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>classes (subclasses) do so with their contracts, that is their</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>preconditions and postconditions, in force. This means that any</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>implementations or redefinitions of inherited routines also have to be</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>written to comply with their inherited contract. Postconditions can be</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>modified in redefined routines, but they may only be strengthened. That</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>is, the redefined routine may increase the benefits it provides to the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>client, but may not decrease those benefits.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>This translates to a redefined postcondtion coming out something like:-</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>ASSERT parent_postcondition = abap_true</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>AND</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>child_postcondition = abap_true.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_POSTCONDITION</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_POSTCONDITION</CLSNAME>
+     <CMPNAME>MD_CONDITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical Condtiion which failed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_POSTCONDITION</CLSNAME>
+     <CMPNAME>MO_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Log Object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

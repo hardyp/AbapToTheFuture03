@@ -1,0 +1,35 @@
+interface ZIF_MONSTER_MODEL_PERS_LAYER
+  public .
+
+
+  methods CREATE_MONSTER_RECORD
+    importing
+      !IT_MONSTER_ITEMS type ZTTYP_MONSTER_ITEMS
+      !IS_MONSTER_HEADER type ZSTR_MONSTER_HEADER
+    exporting
+      !EF_CREATION_SUCCESSFUL type ABAP_BOOL
+    raising
+      ZCX_MONSTER_EXCEPTIONS .
+  methods RETRIEVE_HEADERS_BY_ATTRIBUTE
+    importing
+      !IT_SELECTIONS type ZBC_TT_COSEL
+    exporting
+      !ET_MONSTER_HEADERS type ZTTYP_MONSTER_HEADER .
+  methods RETRIEVE_MONSTER_RECORD
+    importing
+      !ID_MONSTER_NUMBER type ZDE_MONSTER_NUMBER
+      !ID_EDIT_MODE type LRM_CRUD_MODE default 'R'
+    exporting
+      !ES_MONSTER_HEADER type ZSTR_MONSTER_HEADER
+      !ET_MONSTER_ITEMS type ZTTYP_MONSTER_ITEMS
+    raising
+      ZCX_MONSTER_EXCEPTIONS .
+  methods UPDATE_MONSTER_RECORD
+    importing
+      !IT_MONSTER_ITEMS type ZTTYP_MONSTER_ITEMS
+      !IS_MONSTER_HEADER type ZSTR_MONSTER_HEADER
+    exporting
+      !EF_UPDATE_SUCCESSFUL type ABAP_BOOL
+    raising
+      ZCX_MONSTER_EXCEPTIONS .
+endinterface.

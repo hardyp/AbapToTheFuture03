@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Show an Error Log</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBC_SHOW_ERROR_LOGF01</SOBJ_NAME>
+    <SOBJ_NAME>LZBC_SHOW_ERROR_LOGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBC_SHOW_ERROR_LOG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBC_SHOW_ERROR_LOG</FUNCNAME>
+     <GLOBAL_FLAG>X</GLOBAL_FLAG>
+     <SHORT_TEXT>Show Error Log</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ID_TITLE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_ERROR_LOG</PARAMETER>
+       <DBSTRUCT>ZBC_S_ERROR_LOG</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ID_TITLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Title of Error Log Pop Up Box</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_ERROR_LOG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Error Log table</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

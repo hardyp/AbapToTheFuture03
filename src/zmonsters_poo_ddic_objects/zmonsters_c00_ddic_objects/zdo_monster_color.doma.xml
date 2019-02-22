@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Monster Color</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BLUE</DOMVALUE_L>
+     <DDTEXT>Blue</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GREN</DOMVALUE_L>
+     <DDTEXT>Green</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PURP</DOMVALUE_L>
+     <DDTEXT>Purple</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SBPK</DOMVALUE_L>
+     <DDTEXT>Sky-Blue Pink</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INVS</DOMVALUE_L>
+     <DDTEXT>Invisible</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_COLOR</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RED</DOMVALUE_L>
+     <DDTEXT>Red</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

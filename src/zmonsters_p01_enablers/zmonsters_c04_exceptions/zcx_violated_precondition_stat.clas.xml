@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_VIOLATED_PRECONDITION_STAT</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Precondition was Violated</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>005056B074C91ED981A35452159CC110</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>CA==</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>005056B074C91ED981A35452159CC110</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Precondition &amp;MD_CONDITION&amp; was not fulfilled, the eror is in the caller</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Definition</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>In computer programming, a precondition is a condition or predicate that</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>must always be true just prior to the execution of some section of code</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>or before an operation in a formal specification.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>If a precondition is violated, the effect of the section of code becomes</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>undefined and thus may or may not carry out its intended work. Security</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>problems can arise due to incorrect preconditions.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Often, preconditions are simply included in the documentation of the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>affected section of code. Preconditions are sometimes tested using</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>assertions within the code itself, and some languages have specific</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>syntactic constructions for doing so.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>For example: the factorial is only defined for integers greater than or</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>equal to zero. So a program that calculates the factorial of an input</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>number would have preconditions that the number be an integer and that</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>it be greater than or equal to zero.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>A precondition is placed at the start of a method or subroutine. The</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>failure of a precondition ALWAYS indicates an error in the software.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>If the failure of a logical condition is expected in some situations,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>this is not an exception in this sense, but is a special situation to be</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>handled via the IF THEN construct.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>In object-oriented programming</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>Preconditions in object-oriented software development are an essential</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>part of design by contract. Design by contract also includes notions of</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>postcondition and class invariant.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The precondition for any routine defines any constraints on object state</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>which are necessary for successful execution. From the program</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>developer&apos;s viewpoint, this constitutes the routine caller&apos;s portion of</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the contract. The caller then is obligated to ensure that the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>precondition holds prior to calling the routine. The reward for the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>caller&apos;s effort is expressed in the called routines postcondition.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Eiffel example</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>The routine in the following example written in Eiffel takes as an</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>argument an integer which must be a valid value for an hour of the day,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>i. e., 0 through 23, inclusively. The precondition follows the keyword</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>require. It specifies that the argument must be greater than or equal to</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>zero and less than or equal to 23. The tag &quot;valid_argument:&quot; describes</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>this precondition clause and serves to identify it in case of a runtime</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>precondition violation.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>    set_hour (a_hour: INTEGER)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            -- Set `hour&apos; to `a_hour&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        require</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            valid_argument: a_hour &gt;= 0 and a_hour &lt;= 23</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        do</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            hour := a_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        ensure</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>            hour_set: hour = a_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>        end</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>ABAP Equivalent</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>There is no direct equivalent in ABAP. You can put an</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE> &lt;DS:ABAP.ASSERT&gt;ASSERT&lt;/&gt; statement at the start of amethdo or</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>subroutine and the failure of it&apos;s logical condition can be set to cause</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>a runtime error or write to a log.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>This exception class provides another option.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Preconditions and inheritance</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>In the presence of inheritance, the routines inherited by descendant</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>classes (subclasses) do so with their preconditions in force. This means</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>that any implementations or redefinitions of inherited routines also</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>have to be written to comply with their inherited contract.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Preconditions can be modified in redefined routines, but they may only</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>be weakened. That is, the redefined routine may lessen the obligation of</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the client, but not increase it.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>This results in something like:-</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>IF parent_precondition EQ abap_true</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>OR</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>child_precondition EQ abap_true.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_PRECONDITION_STAT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_PRECONDITION_STAT</CLSNAME>
+     <CMPNAME>MD_CALLING_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Calling Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_PRECONDITION_STAT</CLSNAME>
+     <CMPNAME>MD_CALLING_ROUTINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Calling Routine</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_PRECONDITION_STAT</CLSNAME>
+     <CMPNAME>MD_CONDITION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Logical Condition which failed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCX_VIOLATED_PRECONDITION_STAT</CLSNAME>
+     <CMPNAME>MO_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Log Object</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

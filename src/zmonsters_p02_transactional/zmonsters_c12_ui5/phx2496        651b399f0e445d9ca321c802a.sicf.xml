@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/opu/odata/sap/PHX2496/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>PHX2496</ICF_NAME>
+    <ORIG_NAME>PHX2496</ORIG_NAME>
+    <ICFALTNME>ZCDS_SEGW_MONSTERS_HEADER_CDS</ICFALTNME>
+    <ICFALTNME_ORIG>zcds_segw_monsters_header_cds</ICFALTNME_ORIG>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>PHX2496</ICF_NAME>
+    <ICF_LANGU>E</ICF_LANGU>
+    <ICF_DOCU>ZCDS_SEGW_MONSTERS_HEADER_CDS</ICF_DOCU>
+   </ICFDOCU>
+   <ICFHANDLER_TABLE>
+    <ICFHANDLER>
+     <ICF_NAME>PHX2496</ICF_NAME>
+     <ICFORDER>01</ICFORDER>
+     <ICFTYP>A</ICFTYP>
+     <ICFHANDLER>/IWFND/CL_SODATA_HTTP_HANDLER</ICFHANDLER>
+    </ICFHANDLER>
+   </ICFHANDLER_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

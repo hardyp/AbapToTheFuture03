@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Using Test Seams on Dependencies</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCH05_01_02_TEST_SEAMST99</SOBJ_NAME>
+    <SOBJ_NAME>LZCH05_01_02_TEST_SEAMSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCH05_01_02_TEST_SEAMS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZCH05_01_02_TEST_SEAMS</FUNCNAME>
+     <SHORT_TEXT>Using Test Seams on Dependencies</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

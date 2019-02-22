@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DBC</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Design by Contract</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Routine</ENTRY>
+     <LENGTH>7</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>of program</ENTRY>
+     <LENGTH>10</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>has a contract</ENTRY>
+     <LENGTH>19</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>with calling routine</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>agrees to carry out a certain task</ENTRY>
+     <LENGTH>34</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>This requires that</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>That condition has not been fulfilled by calling routine</ENTRY>
+     <LENGTH>56</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Therefore there is an error (bug) in routine</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>009</KEY>
+     <ENTRY>that needs to be corrected</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>011</KEY>
+     <ENTRY>This Diagnosis is intended for IT</ENTRY>
+     <LENGTH>36</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>012</KEY>
+     <ENTRY>The task is to ensure that</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>013</KEY>
+     <ENTRY>That task has not been fulfilled by routine</ENTRY>
+     <LENGTH>43</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>014</KEY>
+     <ENTRY>and so therefore there is an error (bug) in routine</ENTRY>
+     <LENGTH>51</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>015</KEY>
+     <ENTRY>with routine</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+   </TPOOL>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Design by contract</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>Design by contract (DbC), also known as contract programming,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>programming by contract and design-by-contract programming, is an</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>approach for designing software. It prescribes that software designers</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>should define formal, precise and verifiable interface specifications</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>for software components, which extend the ordinary definition of</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>abstract data types with preconditions, postconditions and invariants.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>These specifications are referred to as &quot;contracts&quot;, in accordance with</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>a conceptual metaphor with the conditions and obligations of business</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>contracts.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Description</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>The central idea of DbC is a metaphor on how elements of a software</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>system collaborate with each other on the basis of mutual obligations</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and benefits. The metaphor comes from business life, where a &quot;client&quot;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and a &quot;supplier&quot; agree on a &quot;contract&quot; that defines for example that:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The supplier must provide a certain product (obligation) and is entitled</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>to expect that the client has paid its fee (benefit).</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>The client must pay the fee (obligation) and is entitled to get the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>product (benefit).</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Both parties must satisfy certain obligations, such as laws and</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>regulations, applying to all contracts.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Similarly, if a routine from a class in object-oriented programming</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>provides a certain functionality, it may:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Expect a certain condition to be guaranteed on entry by any client</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>module that calls it: the routine&apos;s precondition—an obligation for the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>client, and a benefit for the supplier (the routine itself), as it frees</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>it from having to handle cases outside of the precondition.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Guarantee a certain property on exit: the routine&apos;s postcondition—an</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>obligation for the supplier, and obviously a benefit (the main benefit</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>of calling the routine) for the client.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Maintain a certain property, assumed on entry and guaranteed on exit:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the class invariant.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> The contract is the formalization of these obligations and benefits.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>One could summarize approach by the &quot;three questions&quot; that the designer</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>must repeatedly ask about the contract:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>What does contract expect?</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>What does contract guarantee?</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>What does contract maintain?</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Many languages have facilities to make assertions like these. However,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>DbC considers these contracts to be so crucial to software correctness</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>that they should be part of the design process. In effect, DbC advocates</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>writing the assertions first.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> The notion of a contract extends down to the method/procedure level;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the contract for each method will normally contain the following pieces</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>of information:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Acceptable and unacceptable input values or types, and their meanings</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Return values or types, and their meanings</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Error and exception condition values or types that can occur, and their</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>meanings</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Side effects</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Preconditions</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Postconditions</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> Invariants</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> (more rarely) Performance guarantees, e.g. for time or space used</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Subclasses in an inheritance hierarchy are allowed to weaken</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>preconditions (but not strengthen them) and strengthen postconditions</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and invariants (but not weaken them). These rules approximate behavioral</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>subtyping.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> All class relationships are between client classes and supplier</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>classes. A client class is obliged to make calls to supplier features</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>where the resulting state of the supplier is not violated by the client</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>call. Subsequently, the supplier is obliged to provide a return state</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and data that does not violate the state requirements of the client. For</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>instance, a supplier data buffer may require that data is present in the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>buffer when a delete feature is called. Subsequently, the supplier</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>guarantees to the client that when a delete feature finishes its work,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the data item will, indeed, be deleted from the buffer. Other design</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>contracts are concepts of &quot;class invariant&quot;. The class invariant</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>guarantees (for the local class) that the state of the class will be</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>maintained within specified tolerances at the end of each feature</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>execution.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE> When using contracts, a supplier should not try to verify that the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>contract conditions are satisfied; the general idea is that code should</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&quot;fail hard&quot;, with contract verification being the safety net. DbC&apos;s</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&quot;fail hard&quot; property simplifies the debugging of contract behavior, as</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the intended behaviour of each routine is clearly specified. This</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>distinguishes it markedly from a related practice known as defensive</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>programming, where the supplier is responsible for figuring out what to</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>do when a precondition is broken. More often than not, the supplier</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>throws an exception to inform the client that the precondition has been</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>broken, and in both cases—DbC and defensive programming—the client must</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>figure out how to respond to that. DbC makes the supplier&apos;s job easier.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Design by contract also defines criteria for correctness for a software</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>module:</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>If the class invariant AND precondition are true before a supplier is</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>called by a client, then the invariant AND the postcondition will be</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>true after the service has been completed.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>When making calls to a supplier, a software module should not violate</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the supplier&apos;s preconditions.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Because the contract conditions should never be violated in program</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>execution, they can be either left in as debugging code or removed from</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the production version of the code altogether for performance reasons.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Design by contract can also facilitate code reuse, since the contract</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>for each piece of code is fully documented. The contracts for a module</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>can be regarded as a form of software documentation for the behavior of</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>that module.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Eiffel Example</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>  set_hour (a_hour: INTEGER)</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>             Set `hour&apos; to `a_hour&apos;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>      require</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>          valid_argument: a_hour &gt;= 0 and a_hour &lt;= 23</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>      do</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>          hour := a_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>      ensure</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>          hour_set: hour = a_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>      end</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>ABAP Example</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>PERFORM something USING piu_hour TYPE i</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>                                          CHANGING pcd_hour TYPe i.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>  ZCL_BC_DBC=&gt;REQUIRE( IF_TRUE = ( BOOLC( pud_hour &gt; 0 AND</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>&lt;= 23 )</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>                                                       ID_SEMANTICS =</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>&apos;Hour must be sensible number&apos; ).</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>.pcd_hour = pud_hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>ZCL_BC_DBC=&gt;ENSURE( IF_TRUE = ( BOOLC( pcd_hour = pud_hour )</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>                                                   ID_SEMANTICS = &apos;Hour</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>correctly changed&apos; ).</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>ENDFORM.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Relationship with software testing</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>Unit testing (i.e. ABAP unit) tests a module in isolation, to check that</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>it meets its contract assuming its subcontractors meet theirs.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>Integration testing checks whether the various modules are working</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>properly together. The system test is a white-box test that normally</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>checks the contract between the supplier of the software and the client,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>and does normally not go into such details</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>Further Information</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+     <TDLINE>http://scn.sap.com/community/abap/blog/2012/09/08/design-by-contract-in-</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>abap</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>*</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBC</CLSNAME>
+     <CMPNAME>ENSURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ensure Postcondition is Fulfilled</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DBC</CLSNAME>
+     <CMPNAME>REQUIRE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Require Precondition to be Fulfilled</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

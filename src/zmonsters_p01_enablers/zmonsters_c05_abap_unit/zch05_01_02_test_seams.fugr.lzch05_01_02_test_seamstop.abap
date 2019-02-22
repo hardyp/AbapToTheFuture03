@@ -1,0 +1,3 @@
+FUNCTION-POOL ZCH05_01_02_TEST_SEAMS.       "MESSAGE-ID ..
+
+* INCLUDE LZCH03_01_02_TEST_SEAMSD...        " Local class definition

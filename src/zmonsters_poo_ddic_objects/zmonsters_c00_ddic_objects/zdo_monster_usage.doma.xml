@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZDO_MONSTER_USAGE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Monster Usage</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_USAGE</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NORM</DOMVALUE_L>
+     <DDTEXT>Scares Peasants</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_USAGE</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BALL</DOMVALUE_L>
+     <DDTEXT>Ballroom Dancer</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_USAGE</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MORT</DOMVALUE_L>
+     <DDTEXT>Mortgage Salesman</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_USAGE</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PLUM</DOMVALUE_L>
+     <DDTEXT>It&apos;s the PLUMBER!</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_USAGE</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MORI</DOMVALUE_L>
+     <DDTEXT>Morris Dancer</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

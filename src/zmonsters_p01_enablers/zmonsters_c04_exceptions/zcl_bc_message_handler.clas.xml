@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Generic Error Message Handler</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Internal Session for Isolated Test Class Execution</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+   </TPOOL>
+   <LINES>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>In my class ZCL_BC_SCREEN_MESSAGE I had one class doing three totally</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>disparate things, which is bad design.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>I have isolated out the error handling part into this class, and added</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>the IF_RECA_MESSAGE_LIST which the SDN describes at the &quot;ultimate</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>message handler&quot; in order to save the error messages to the application</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>log when something goes wrong inproduction.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U2</TDFORMAT>
+     <TDLINE>Exceptions - separation of concerns</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>There are three parts to an exception situation after an error occurs:-</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>RAISE =&gt; Raising an exception message adding as much detail as we think</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>will be helpful to the eventual handler</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>INTERCEPT =&gt; Having the appropriate level of the program catch that</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>level - &quot;appropriate&quot; in this context means that the routine the routine</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>either can correct the problem itself, or if not then at least it knows</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>where to send the message so some human can deal with it</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>ACT=&gt; To respond to the exception</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>This class forms a bridge between the sections, the first part fills up</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>an error log object with information and sends it onwards. if the second</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>part can handle the exception it does not need such a log, but if a</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>human needs to be involved, the intercepting code sends them the log to</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>have a log at via some mechanims  - direct pop-up / workflow /</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>application log.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U2</TDFORMAT>
+     <TDLINE>Online vs Background</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>If we are online and the user can do something about the problem, we</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>need to pop a box in their face to tell them what went wrong and more</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>importantly what to do about it. Often an error message on it&apos;s own will</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>do the trick, but we might lick to add more options than a standard</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>error message like being able to drill down to various pertinent</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>documents.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>If we are in background we can write an error message to the SM37 log,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>again we may need to store more information, so writing an entry to the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>application log is a good thing.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U2</TDFORMAT>
+     <TDLINE>Environment in which the program is running</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+     <TDLINE>In development and test we can  allow a short dump if we want, in</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>production we just want to terminate with an information message to the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>user. In the latter case, again we should write the details to the</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDLINE>application log for further analysis.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>U1</TDFORMAT>
+     <TDLINE>&amp;FURTHER_SOURCES_OF_INF&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>AS</TDFORMAT>
+    </TLINE>
+   </LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+     <CMPNAME>APPEND_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add an entry to Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+     <CMPNAME>CLEAR_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return new Instance of Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+     <CMPNAME>MS_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return Parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+     <CMPNAME>MT_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
+     <CMPNAME>SHOW_ERROR_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Show Error Log</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
