@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Monster Golf Scores</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMONSTER_GOLF_SCORESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMONSTER_GOLF_SCORES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMONSTER_GOLF_SCORES</FUNCNAME>
+     <SHORT_TEXT>Monster Golf Scores</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ID_MONSTER_NUMBER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZDE_MONSTER_NUMBER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ED_GOLF_HANDICAP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>MONSTER_ONLY_ONE_INCH_TALL</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>MONSTER_HAS_NO_SILLY_TROUSERS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ID_MONSTER_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Monster  Number</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ED_GOLF_HANDICAP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Golf Handicap</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MONSTER_ONLY_ONE_INCH_TALL</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Monster is only one inch tall</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MONSTER_HAS_NO_SILLY_TROUSERS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Monster has no Silly Trousers</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,3 @@
+FUNCTION-POOL ZMONSTER_GOLF_SCORES.         "MESSAGE-ID ..
+
+* INCLUDE LZMONSTER_GOLF_SCORESD...          " Local class definition
