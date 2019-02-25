@@ -15,4 +15,4 @@ ABAP2XLSX https://github.com/sapmentors/abap2xlsx
 
 ZMOCKUP_LOADER https://github.com/sbcgua/mockup_loader
 
-... were installed on the SAP system where the code was written. The SALV programs in chapter 10 need ABAP2XLSX and some of the uni tetsig examples use the ZMOCKUP_LOADER class.
+... were installed on the SAP system where the code was written. The SALV programs in chapter 10 need ABAP2XLSX and some of the unit testing examples use the ZMOCKUP_LOADER class.
