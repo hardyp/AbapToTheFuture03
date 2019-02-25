@@ -305,7 +305,6 @@ METHOD derive_sanity_description.
                                         CHANGING  ct_name_value  = name_value_table ).
 
       rd_sanity_description = sanity_description.
-      .
 
     CATCH cx_fdt INTO DATA(function_error).
       READ TABLE function_error->mt_message INDEX 1 ASSIGNING FIELD-SYMBOL(<function_error_info>).

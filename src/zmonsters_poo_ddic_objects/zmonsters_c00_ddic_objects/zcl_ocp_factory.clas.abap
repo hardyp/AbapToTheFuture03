@@ -149,7 +149,7 @@ CLASS ZCL_OCP_FACTORY IMPLEMENTATION.
 
     dynamic_parameter-name = 'RF_YES_IT_IS'.
     dynamic_parameter-kind = cl_abap_objectdescr=>returning.
-    dynamic_parameter-value = REF #( this_is_the_class_we_want )..
+    dynamic_parameter-value = REF #( this_is_the_class_we_want ).
     INSERT dynamic_parameter INTO TABLE dynamic_parameters.
 
 * We are ready to rock and roll. Time to start looking for the desired class

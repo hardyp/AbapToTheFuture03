@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZSC_MONSTER_ITEMS</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Monster Items</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZSC_MONSTER_ITEMS</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0001</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/BOBF/S_FRW_KEY_INCL</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Include Structure for Key Information</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZSC_MONSTER_ITEMS</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0005</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZSP_MONSTER_ITEMS_D</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Monster Item Structure (Database Fields)</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>NODE_DATA</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZSC_MONSTER_ITEMS</TABNAME>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0010</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZST_MONSTER_ITEMS_DT</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Monster Items Structure (Transient Fields)</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>TRANSIENT_NODE_DATA</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
