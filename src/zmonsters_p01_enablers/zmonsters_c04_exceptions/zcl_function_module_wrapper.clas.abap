@@ -90,6 +90,8 @@ METHOD remove_existing_messages.
 
 METHOD store_exception_details_from.
 
+    return_code = sy-subrc.
+
     CALL FUNCTION 'SYSTEM_CALLSTACK'
       IMPORTING
         et_callstack = call_stack_table.
@@ -97,7 +99,6 @@ METHOD store_exception_details_from.
     DELETE call_stack_table WHERE progname CS 'ZCL_FUNCTION_MODULE_WRAPPER'.
 
     function_name  = id_function_module.
-    return_code    = sy-subrc.
     exception_name = the_exception_mapped_to_the( return_code ).
     exception_text = description_of( exception_name ).
 
