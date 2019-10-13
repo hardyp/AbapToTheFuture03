@@ -10,11 +10,11 @@
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
     <SCRLEN3>40</SCRLEN3>
-    <DDTEXT>Monster Order Status</DDTEXT>
-    <REPTEXT>Monster Order Status</REPTEXT>
+    <DDTEXT>Monster Order Item Status</DDTEXT>
+    <REPTEXT>Monster Order Item Status</REPTEXT>
     <SCRTEXT_S>Status</SCRTEXT_S>
     <SCRTEXT_M>Monster Order Status</SCRTEXT_M>
-    <SCRTEXT_L>Monster Order Status</SCRTEXT_L>
+    <SCRTEXT_L>Monster Order Item Status</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>

@@ -38,7 +38,7 @@ CLASS lcl_dialog_box IMPLEMENTATION.
           CHANGING
             t_table      = it_error_log[] ).
       CATCH cx_salv_msg.
-        MESSAGE s290(zbc_horizontool_mc01)."Report in Trouble
+        MESSAGE s004(zmonsters)."Report in Trouble
         RETURN.
     ENDTRY.
 

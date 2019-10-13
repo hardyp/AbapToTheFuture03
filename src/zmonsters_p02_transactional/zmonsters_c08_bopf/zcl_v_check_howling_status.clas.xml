@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_V_CHECK_HOWLING_STATUS</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Check Howling Status</DESCRIPT>
     <STATE>1</STATE>

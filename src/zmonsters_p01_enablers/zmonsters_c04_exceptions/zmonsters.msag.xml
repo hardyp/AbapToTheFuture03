@@ -32,7 +32,186 @@
      <MSGNR>003</MSGNR>
      <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
     </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMONSTERS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Report in Trouble - Please call Helpdesk</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMONSTERS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fatal Problem of type &amp; - Please call Helpdesk</TEXT>
+    </T100>
    </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZMONSTERS004</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00013</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMONSTERS004</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The transaction or report you are trying to run has encountered a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>problem which it is unable to deal with. This means that a situation has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>arisen that was unforeseen at the time the program was written.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>As this problem was not foreseen, the system response will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unpredictable. The program might even go on to work correctly, but in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>any case proceed as described below.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Please log a call with the helpdesk describing exactly what you were</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>doing when this message appeared i.e. what transaction you were running</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;(&gt;,&lt;)&gt; and what data you were using e.g. selection criteria, document</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>numbers etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The helpdesk will forward the call on to the relevant IT Department,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>where a developer will be allocated to investigate and resolve the cause</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the problem</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZMONSTERS005</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00013</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZMONSTERS005</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The transaction or report you are trying to run has encountered a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>problem which it is unable to deal with. This means that a situation has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>arisen that was unforeseen at the time the program was written.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>As this problem was not foreseen, the system response will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unpredictable. The program might even go on to work correctly, but in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>any case proceed as described below.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Please log a call with the helpdesk describing exactly what you were</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>doing when this message appeared i.e. what transaction you were running,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and what data you were using e.g. selection criteria, document numbers</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The helpdesk will forward the call on to the relevant IT Department,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>where a developer will be allocated to investigate and resolve the cause</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the problem</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

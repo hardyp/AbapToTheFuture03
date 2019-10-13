@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_BC_MESSAGE_HANDLER</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Generic Error Message Handler</DESCRIPT>
     <STATE>1</STATE>

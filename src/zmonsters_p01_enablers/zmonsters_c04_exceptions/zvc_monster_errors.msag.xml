@@ -13,6 +13,18 @@
      <MSGNR>001</MSGNR>
      <TEXT>Please re-attach the Monsters Head!</TEXT>
     </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVC_MONSTER_ERRORS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Scary Monsters Type &amp;1 have &amp;2 heads &amp;3 arms and &amp;4 legs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZVC_MONSTER_ERRORS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Monster has &amp;1 heads, which is most unexpected</TEXT>
+    </T100>
    </T100>
   </asx:values>
  </asx:abap>

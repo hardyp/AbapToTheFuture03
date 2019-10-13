@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_MONSTER_OBJECT_INJECTOR</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Monster Object Instance Injector</DESCRIPT>
     <STATE>1</STATE>

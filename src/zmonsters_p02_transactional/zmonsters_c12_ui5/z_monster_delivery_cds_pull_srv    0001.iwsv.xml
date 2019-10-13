@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<abapGit version="v1.0.0" serializer="ZCL_ABAPGIT_OBJECT_BY_SOBJ" serializer_version="1.0">
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IWSV" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
+   <_-IWBEP_-I_MGW_SRG>
+    <_-IWBEP_-I_MGW_SRG>
+     <GROUP_TECH_NAME>Z_MONSTER_DELIVERY_CDS_PULL_SRV</GROUP_TECH_NAME>
+     <GROUP_VERSION>0001</GROUP_VERSION>
+     <MODEL_TECH_NAME>Z_MONSTER_DELIVERY_CDS_PULL_MDL</MODEL_TECH_NAME>
+     <MODEL_VERSION>0001</MODEL_VERSION>
+    </_-IWBEP_-I_MGW_SRG>
+   </_-IWBEP_-I_MGW_SRG>
    <_-IWBEP_-I_MGW_SRH>
     <_-IWBEP_-I_MGW_SRH>
      <TECHNICAL_NAME>Z_MONSTER_DELIVERY_CDS_PULL_SRV</TECHNICAL_NAME>
@@ -13,120 +21,6 @@
      <IS_SAP_SERVICE>-</IS_SAP_SERVICE>
     </_-IWBEP_-I_MGW_SRH>
    </_-IWBEP_-I_MGW_SRH>
-   <_-IWBEP_-I_MGW_SRH_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>TECHNICAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>35</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>NAMESPACE</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>10</LENGTH>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>EXTERNAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>40</LENGTH>
-    </item>
-    <item>
-     <POS>5</POS>
-     <NAME>CLASS_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>30</LENGTH>
-    </item>
-    <item>
-     <POS>6</POS>
-     <NAME>CREATED_BY</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>12</LENGTH>
-    </item>
-    <item>
-     <POS>7</POS>
-     <NAME>CHANGED_BY</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>12</LENGTH>
-    </item>
-    <item>
-     <POS>8</POS>
-     <NAME>CREATED_TIMESTMP</NAME>
-     <TYPE_KIND>P</TYPE_KIND>
-     <LENGTH>8</LENGTH>
-    </item>
-    <item>
-     <POS>9</POS>
-     <NAME>CHANGED_TIMESTMP</NAME>
-     <TYPE_KIND>P</TYPE_KIND>
-     <LENGTH>8</LENGTH>
-    </item>
-    <item>
-     <POS>10</POS>
-     <NAME>IS_SAP_SERVICE</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>1</LENGTH>
-    </item>
-    <item>
-     <POS>11</POS>
-     <NAME>EXT_4_TECH_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>35</LENGTH>
-    </item>
-    <item>
-     <POS>12</POS>
-     <NAME>EXT_4_VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-    </item>
-   </_-IWBEP_-I_MGW_SRH_field_catalog>
-   <_-IWBEP_-I_MGW_SRG>
-    <_-IWBEP_-I_MGW_SRG>
-     <GROUP_TECH_NAME>Z_MONSTER_DELIVERY_CDS_PULL_SRV</GROUP_TECH_NAME>
-     <GROUP_VERSION>0001</GROUP_VERSION>
-     <MODEL_TECH_NAME>Z_MONSTER_DELIVERY_CDS_PULL_MDL</MODEL_TECH_NAME>
-     <MODEL_VERSION>0001</MODEL_VERSION>
-    </_-IWBEP_-I_MGW_SRG>
-   </_-IWBEP_-I_MGW_SRG>
-   <_-IWBEP_-I_MGW_SRG_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>GROUP_TECH_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>35</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>GROUP_VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>MODEL_TECH_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>32</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>MODEL_VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-   </_-IWBEP_-I_MGW_SRG_field_catalog>
    <_-IWBEP_-I_MGW_SRT>
     <_-IWBEP_-I_MGW_SRT>
      <TECHNICAL_NAME>Z_MONSTER_DELIVERY_CDS_PULL_SRV</TECHNICAL_NAME>
@@ -135,35 +29,6 @@
      <DESCRIPTION>Monster Deliery Object pulled from CDS View</DESCRIPTION>
     </_-IWBEP_-I_MGW_SRT>
    </_-IWBEP_-I_MGW_SRT>
-   <_-IWBEP_-I_MGW_SRT_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>TECHNICAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>35</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>LANGUAGE</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>1</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>DESCRIPTION</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>60</LENGTH>
-    </item>
-   </_-IWBEP_-I_MGW_SRT_field_catalog>
   </asx:values>
  </asx:abap>
 </abapGit>

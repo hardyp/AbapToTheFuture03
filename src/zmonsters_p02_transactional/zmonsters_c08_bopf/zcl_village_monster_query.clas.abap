@@ -20,8 +20,6 @@ CLASS ZCL_VILLAGE_MONSTER_QUERY IMPLEMENTATION.
   METHOD /bobf/if_frw_query~query.
 
 * IT_SELECTION_PARAMETERS contains what you might expect...
-    BREAK hardyp.
-
     DATA: lr_village_number TYPE RANGE OF zde_village_address_number.
 
 * Preconditions

@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_MONSTER_MODEL_PERS_BOPF</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Monster Model Persitency Layer using BOPF</DESCRIPT>
     <STATE>1</STATE>

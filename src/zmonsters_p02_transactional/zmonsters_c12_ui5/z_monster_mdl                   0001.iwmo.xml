@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<abapGit version="v1.0.0" serializer="ZCL_ABAPGIT_OBJECT_BY_SOBJ" serializer_version="1.0">
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IWMO" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <_-IWBEP_-I_MGW_OHD>
@@ -11,52 +11,6 @@
      <CREATED_TIMESTMP>20180805125636</CREATED_TIMESTMP>
     </_-IWBEP_-I_MGW_OHD>
    </_-IWBEP_-I_MGW_OHD>
-   <_-IWBEP_-I_MGW_OHD_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>TECHNICAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>32</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>CLASS_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>30</LENGTH>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>CREATED_BY</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>12</LENGTH>
-    </item>
-    <item>
-     <POS>5</POS>
-     <NAME>CHANGED_BY</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>12</LENGTH>
-    </item>
-    <item>
-     <POS>6</POS>
-     <NAME>CREATED_TIMESTMP</NAME>
-     <TYPE_KIND>P</TYPE_KIND>
-     <LENGTH>8</LENGTH>
-    </item>
-    <item>
-     <POS>7</POS>
-     <NAME>CHANGED_TIMESTMP</NAME>
-     <TYPE_KIND>P</TYPE_KIND>
-     <LENGTH>8</LENGTH>
-    </item>
-   </_-IWBEP_-I_MGW_OHD_field_catalog>
    <_-IWBEP_-I_MGW_OHT>
     <_-IWBEP_-I_MGW_OHT>
      <TECHNICAL_NAME>Z_MONSTER_MDL</TECHNICAL_NAME>
@@ -65,35 +19,6 @@
      <DESCRIPTION>Monster Business Object</DESCRIPTION>
     </_-IWBEP_-I_MGW_OHT>
    </_-IWBEP_-I_MGW_OHT>
-   <_-IWBEP_-I_MGW_OHT_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>TECHNICAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>32</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>LANGUAGE</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>1</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>DESCRIPTION</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>60</LENGTH>
-    </item>
-   </_-IWBEP_-I_MGW_OHT_field_catalog>
   </asx:values>
  </asx:abap>
 </abapGit>

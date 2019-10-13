@@ -4,7 +4,6 @@
   <asx:values>
    <DCLS>
     <DCLNAME>ZDCL_MONSTERS_PARAMETERS</DCLNAME>
-    <AS4LOCAL>A</AS4LOCAL>
     <DCLLANGUAGE>E</DCLLANGUAGE>
     <DDTEXT>Restrict Access to Colorful Monsters</DDTEXT>
    </DCLS>

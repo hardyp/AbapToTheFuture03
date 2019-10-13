@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>LZSALV_CSQT_SCREEN_MANAGERTOP</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <DBAPL>S</DBAPL>
     <DBNA>D$</DBNA>
     <SUBC>I</SUBC>

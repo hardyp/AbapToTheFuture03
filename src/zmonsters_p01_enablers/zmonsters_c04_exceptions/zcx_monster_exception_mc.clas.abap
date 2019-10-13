@@ -10,8 +10,8 @@ public section.
 
   constants:
     begin of ZCX_MONSTER_EXCEPTION_MC,
-      msgid type symsgid value 'ZVC_MONSTER_ERRORS',
-      msgno type symsgno value '000',
+      msgid type symsgid value 'ZVC_MONSTER_ERRORS',"002 = Scary Monsters Type &1 have &2 heads &3 arms and &4 legs
+      msgno type symsgno value '002',
       attr1 type scx_attrname value 'SCARINESS',
       attr2 type scx_attrname value 'HEADS',
       attr3 type scx_attrname value 'ARMS',
@@ -19,8 +19,8 @@ public section.
     end of ZCX_MONSTER_EXCEPTION_MC .
   constants:
     begin of HEAD_ERROR,
-      msgid type symsgid value 'ZVC_MONSTER_ERRORS',
-      msgno type symsgno value '001',
+      msgid type symsgid value 'ZVC_MONSTER_ERRORS', "003 = Monster has &1 heads, which is most unexpected
+      msgno type symsgno value '003',
       attr1 type scx_attrname value 'HEADS',
       attr2 type scx_attrname value '',
       attr3 type scx_attrname value '',

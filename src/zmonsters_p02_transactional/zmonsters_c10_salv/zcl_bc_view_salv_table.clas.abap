@@ -430,7 +430,7 @@ METHOD set_key.
         mo_columns->set_key_fixation( abap_true ).
 
       CATCH cx_salv_not_found.
-        MESSAGE s290(zbc_horizontool_mc01)."Report in Trouble
+        MESSAGE s004(zmonsters)."Report in Trouble
     ENDTRY.
 
   ENDMETHOD.                    "set_key

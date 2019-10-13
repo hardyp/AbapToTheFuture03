@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOINTERF>
     <CLSNAME>ZIF_BC_CONTROLLER</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Interface for Application Controllers</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>

@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOINTERF>
     <CLSNAME>ZIF_CREATED_VIA_OCP_FACTORY</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>Instances created via OCP Factory Method</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>

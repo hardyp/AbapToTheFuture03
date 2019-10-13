@@ -17,14 +17,21 @@
      <VALPOS>0001</VALPOS>
      <DDLANGUAGE>E</DDLANGUAGE>
      <DOMVALUE_L>A</DOMVALUE_L>
-     <DDTEXT>Foul Deed has been Scheduled</DDTEXT>
+     <DDTEXT>Foul Deed has been Requested</DDTEXT>
     </DD07V>
     <DD07V>
      <DOMNAME>ZDO_MONSTER_ORDER_STATUS</DOMNAME>
      <VALPOS>0002</VALPOS>
      <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>B</DOMVALUE_L>
+     <DDTEXT>Foul Deed has been Scheduled</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZDO_MONSTER_ORDER_STATUS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
      <DOMVALUE_L>C</DOMVALUE_L>
-     <DDTEXT>Foul Deed has been Requested</DDTEXT>
+     <DDTEXT>Foul Deed has been Carried Out</DDTEXT>
     </DD07V>
    </DD07V_TAB>
   </asx:values>

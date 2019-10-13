@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>ZL05_03_BROKEN_DEPENDENCIES</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <SUBC>1</SUBC>
     <RSTAT>T</RSTAT>
     <RLOAD>E</RLOAD>

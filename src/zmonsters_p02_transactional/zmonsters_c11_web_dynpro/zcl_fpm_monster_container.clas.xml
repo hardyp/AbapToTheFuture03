@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_FPM_MONSTER_CONTAINER</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>E</LANGU>
     <DESCRIPT>FPM Monster List Container Class</DESCRIPT>
     <STATE>1</STATE>
