@@ -16,3 +16,6 @@ ABAP2XLSX https://github.com/sapmentors/abap2xlsx
 ZMOCKUP_LOADER https://github.com/sbcgua/mockup_loader
 
 ... were installed on the SAP system where the code was written. The SALV programs in chapter 10 need ABAP2XLSX and some of the unit testing examples use the ZMOCKUP_LOADER class.
+
+Notes:
+- Before testing BOPF Z_MONSTER BRFplus rule needs to be completed (Listen 09.02 Calling BRFplus Function from ABAP)
