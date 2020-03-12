@@ -32,13 +32,11 @@
        <PARAMETER>ID_TITLE</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Title of Error Log Pop Up Box</STEXT>
-       <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IT_ERROR_LOG</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Error Log table</STEXT>
-       <INDEX> 002</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>

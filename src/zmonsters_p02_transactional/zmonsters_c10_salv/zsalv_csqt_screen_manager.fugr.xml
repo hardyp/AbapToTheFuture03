@@ -30,13 +30,11 @@
       <RSFDO>
        <PARAMETER>R_CONTENT_MANAGER</PARAMETER>
        <KIND>P</KIND>
-       <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>TITLE</PARAMETER>
        <KIND>P</KIND>
        <STEXT>ALV Control: Title bar text</STEXT>
-       <INDEX> 002</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
