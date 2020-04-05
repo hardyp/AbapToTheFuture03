@@ -1,101 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<abapGit version="v1.0.0" serializer="ZCL_ABAPGIT_OBJECT_BY_SOBJ" serializer_version="1.0">
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IWVB" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
-   <_-IWBEP_-I_MGW_VAH>
-    <_-IWBEP_-I_MGW_VAH>
-     <TECHNICAL_NAME>Z_MONSTER_DELIVERY_CDS__ANNO_MDL</TECHNICAL_NAME>
-     <VERSION>0001</VERSION>
-     <CLASS_NAME>CL_SADL_GW_CDS_EXPOSURE_APC</CLASS_NAME>
-     <CREATED_BY>HARDYP</CREATED_BY>
-     <CHANGED_BY>HARDYP</CHANGED_BY>
-     <CREATED_TIMESTMP>20180810130107</CREATED_TIMESTMP>
-     <CHANGED_TIMESTMP>20180810130107</CHANGED_TIMESTMP>
-    </_-IWBEP_-I_MGW_VAH>
-   </_-IWBEP_-I_MGW_VAH>
-   <_-IWBEP_-I_MGW_VAH_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>TECHNICAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>32</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>CLASS_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>30</LENGTH>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>CREATED_BY</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>12</LENGTH>
-    </item>
-    <item>
-     <POS>5</POS>
-     <NAME>CHANGED_BY</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>12</LENGTH>
-    </item>
-    <item>
-     <POS>6</POS>
-     <NAME>CREATED_TIMESTMP</NAME>
-     <TYPE_KIND>P</TYPE_KIND>
-     <LENGTH>8</LENGTH>
-    </item>
-    <item>
-     <POS>7</POS>
-     <NAME>CHANGED_TIMESTMP</NAME>
-     <TYPE_KIND>P</TYPE_KIND>
-     <LENGTH>8</LENGTH>
-    </item>
-   </_-IWBEP_-I_MGW_VAH_field_catalog>
-   <_-IWBEP_-I_MGW_VAT>
-    <_-IWBEP_-I_MGW_VAT>
-     <TECHNICAL_NAME>Z_MONSTER_DELIVERY_CDS__ANNO_MDL</TECHNICAL_NAME>
-     <VERSION>0001</VERSION>
-     <LANGUAGE>E</LANGUAGE>
-     <DESCRIPTION>Generic Annotation Provider</DESCRIPTION>
-    </_-IWBEP_-I_MGW_VAT>
-   </_-IWBEP_-I_MGW_VAT>
-   <_-IWBEP_-I_MGW_VAT_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>TECHNICAL_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>32</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>LANGUAGE</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>1</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>DESCRIPTION</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>60</LENGTH>
-    </item>
-   </_-IWBEP_-I_MGW_VAT_field_catalog>
    <_-IWBEP_-I_MGW_VAA>
     <_-IWBEP_-I_MGW_VAA>
      <ANNO_TECH_NAME>Z_MONSTER_DELIVERY_CDS__ANNO_MDL</ANNO_TECH_NAME>
@@ -107,53 +13,25 @@
      <SCHEMA_NAMESPACE>Z_MONSTER_DELIVERY_CDS_PULL_SRV</SCHEMA_NAMESPACE>
     </_-IWBEP_-I_MGW_VAA>
    </_-IWBEP_-I_MGW_VAA>
-   <_-IWBEP_-I_MGW_VAA_field_catalog>
-    <item>
-     <POS>1</POS>
-     <NAME>ANNO_TECH_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>32</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>2</POS>
-     <NAME>ANNO_VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>3</POS>
-     <NAME>SERV_TECH_NAME</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>35</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>4</POS>
-     <NAME>SERV_VERSION</NAME>
-     <TYPE_KIND>N</TYPE_KIND>
-     <LENGTH>4</LENGTH>
-     <IS_KEY>X</IS_KEY>
-    </item>
-    <item>
-     <POS>5</POS>
-     <NAME>IS_MAIN_SERVICE</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>1</LENGTH>
-    </item>
-    <item>
-     <POS>6</POS>
-     <NAME>SERV_ALIAS</NAME>
-     <TYPE_KIND>C</TYPE_KIND>
-     <LENGTH>35</LENGTH>
-    </item>
-    <item>
-     <POS>7</POS>
-     <NAME>SCHEMA_NAMESPACE</NAME>
-     <TYPE_KIND>g</TYPE_KIND>
-    </item>
-   </_-IWBEP_-I_MGW_VAA_field_catalog>
+   <_-IWBEP_-I_MGW_VAH>
+    <_-IWBEP_-I_MGW_VAH>
+     <TECHNICAL_NAME>Z_MONSTER_DELIVERY_CDS__ANNO_MDL</TECHNICAL_NAME>
+     <VERSION>0001</VERSION>
+     <CLASS_NAME>CL_SADL_GW_CDS_EXPOSURE_APC</CLASS_NAME>
+     <CREATED_BY>HARDYP</CREATED_BY>
+     <CHANGED_BY>HARDYP</CHANGED_BY>
+     <CREATED_TIMESTMP>20180810130107</CREATED_TIMESTMP>
+     <CHANGED_TIMESTMP>20180810130107</CHANGED_TIMESTMP>
+    </_-IWBEP_-I_MGW_VAH>
+   </_-IWBEP_-I_MGW_VAH>
+   <_-IWBEP_-I_MGW_VAT>
+    <_-IWBEP_-I_MGW_VAT>
+     <TECHNICAL_NAME>Z_MONSTER_DELIVERY_CDS__ANNO_MDL</TECHNICAL_NAME>
+     <VERSION>0001</VERSION>
+     <LANGUAGE>E</LANGUAGE>
+     <DESCRIPTION>Generic Annotation Provider</DESCRIPTION>
+    </_-IWBEP_-I_MGW_VAT>
+   </_-IWBEP_-I_MGW_VAT>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -38,25 +38,21 @@
        <PARAMETER>ID_MONSTER_NUMBER</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Monster  Number</STEXT>
-       <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>ED_GOLF_HANDICAP</PARAMETER>
        <KIND>P</KIND>
        <STEXT>Golf Handicap</STEXT>
-       <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>MONSTER_ONLY_ONE_INCH_TALL</PARAMETER>
        <KIND>X</KIND>
        <STEXT>Monster is only one inch tall</STEXT>
-       <INDEX> 003</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>MONSTER_HAS_NO_SILLY_TROUSERS</PARAMETER>
        <KIND>X</KIND>
        <STEXT>Monster has no Silly Trousers</STEXT>
-       <INDEX> 004</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
